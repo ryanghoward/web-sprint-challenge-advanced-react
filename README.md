@@ -118,8 +118,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a class-based and a functional component?
 
+Stateful and stateless components are referred to by a variety of terms. The only difference between them is that one has state and the other does not. That is, stateful components keep track of changing data, whereas stateless components either print what is given to them via props or render the same thing every time.
+
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+
+componentWillMount is executed before rendering, on both the server and the client side, componentWillUpdate is called just before rendering. 
 
 3. Define stateful logic.
 
+Stateful logic is a type of computational logic in which the same devices are used to store logic values as well as to perform logical operations.
+
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+Arrange, Act, and Assert.
+
+Arrange: This is the point at which we tell the test where we're looking.
+Act: This is where we define the elements that will be targeted and how we will interact with them. 
+Assert: Now we tell the test what we're looking for in terms of a result.
